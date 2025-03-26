@@ -1,0 +1,263 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Ankit Singh} \\ \vspace{1pt}
+    SMQ S-57 Air Force Station Hindan Ghaziabad 201004 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9140093041 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shubhamankit1234567890@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/ankit-singh-583b1b252//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/ankit-singh}}  ~
+    \href{https://github.com/Ankit-Singh1234}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Ankit-Singh1234}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KIET Group of Institutions Ghaziabad}{Sep. 2022 -- June 2026}
+      {Bachelor of Technology in Computer Science And Engineering, CGPA : 8.33 }{Ghaziabad, Uttar Pradesh }
+  \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Air Force School Hindan}{Aug. 2021 -- June 2022}
+      {Intermediate with PCM and Computer Science(Python), 96.2\% School Topper}{Ghaziabad, Uttar Pradesh}
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MongoDB Node.js Developer Intern}{May 2024 -- June 2020}
+      {}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and built a full-stack web application integrating MongoDB, a Node.js backend, and a React frontend.}
+        \resumeItem{Implemented CRUD operations and data indexing, enhancing database efficiency and scalability.}
+        \resumeItem{Optimized API performance by leveraging MongoDB aggregation and indexing strategies.}
+        \resumeItem{Collaborated with a team to ensure secure and efficient database operations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Web Development Intern}{Oct 2024 -- Nov 2024}
+      {MLSA KIET }{Ghaziabad, Uttar Pradesh}
+      \resumeItemListStart
+        \resumeItem{Gained hands-on experience in front-end and back-end web development using Node.js, Express.js, and MongoDB.}
+        \resumeItem{Built Medium and advanced-level projects, integrating React.js for a dynamic user interface.}
+        \resumeItem{Followed best coding practices, including Git/GitHub, agile development, and responsive UI/UX design.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Technical Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Banking Management System} $|$ \emph{DBMS, MySQL, Python}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered a Python-based Bank Management System leveraging MySQL for relational data persistence.}
+            \resumeItem{Designed and implemented secure CRUD operations using parameterized queries to prevent SQL injection.}
+            \resumeItem{Integrated multi-threading for concurrent transaction processing and optimized database indexing for performance.}
+
+}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{SwiftCart – Fast and shopping.} $|$ \emph{HTML,CSS,Javascript,MongoDB,ExpressJS,React,NodeJS}}{November 2024}
+          \resumeItemListStart
+            \resumeItem{SwiftCart is a high-performance MERN stack eCommerce platform, built with React.js (frontend) and Node.js + Express.js (backend) for a seamless user experience.}
+            \resumeItem{JWT-based authentication, Bcrypt password hashing, and Role-Based Access Control for secure user access.}
+            \resumeItem{Utilizes MongoDB (NoSQL) for efficient data management, ensuring fast and scalable product handling.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Face Recognition Attendance System } $|$ \emph{Python, OpenCV, NumPy, Flask}}{sep 2024}
+          \resumeItemListStart
+            \resumeItem{Developed an automated attendance system using face recognition technology for real-time identification.}
+            \resumeItem{Integrated OpenCV and deep learning models to detect and recognize faces with high accuracy.}
+            \resumeItem{Built a Flask-based web interface for managing attendance records and user registration.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Some Other Projects } $|$ \emph{}}{ }
+          \resumeItemListStart
+            \resumeItem{Library-Management-System-Using-C-Language}
+            \resumeItem{Weather App Using OpenWeatherMap API | (HTML, CSS, JavaScript)}
+            \resumeItem{Hospital-Managemant-System | (Python,CSV)}
+            \resumeItem{Online-Course-Selling-App-using-Full-stack}
+          \resumeItemListEnd 
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:C/C++, Python, Java, , HTML/CSS, JavaScript, SQL} \\
+     \textbf{WebDev}{: React, Tailwind CSS, MongoDB, ExpressJS, NodeJS } \\
+     \textbf{Database}{: MongoDB , MySQL} \\
+     \textbf{Tools}{: Git/GitHub, VS Code, Eclipse, Canva, Jupyter, PyCharm ,Replit} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Achievements / Extracurricular}
+    \resumeSubHeadingListStart
+            \resumeItemListStart
+                \resumeItem{Leetcode: Solved 450+ DSA problems on LeetCode with 4 badges, 3-Star problem solvind in c++ in Hackerrank, Master badge in Coding Ninjas}
+                \resumeItem{Participated in Technical Fest "InnoTech", Hackathons, programmer of the Month conducted by CSE Department, Tech Seminars, BootCamps, LinkedIn Learnig,etc}
+                \resumeItem{NSCC Club Coordinator, Conducted many bootcamps and Guided juniors and teammates. }
+                \resumeItem{Qualified for State Level Quiz Competition (RBI) , Clear Government Written Exams (Indian Air Force)  }
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}

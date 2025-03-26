@@ -144,6 +144,11 @@
       {Air Force School Hindan}{Aug. 2021 -- June 2022}
       {Intermediate with PCM and Computer Science(Python), 96.2\% School Topper}{Ghaziabad, Uttar Pradesh}
   \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bal Academy School}{July 2019 -- June 2020}
+      {High School - 93.83\% School Topper }{Jodhpur, Rajasthan}
+  \resumeSubHeadingListEnd
 
 % %------RELEVANT COURSEWORK-------
 % \section{Relevant Coursework}
@@ -174,7 +179,6 @@
       \resumeItemListStart
         \resumeItem{Designed and built a full-stack web application integrating MongoDB, a Node.js backend, and a React frontend.}
         \resumeItem{Implemented CRUD operations and data indexing, enhancing database efficiency and scalability.}
-        \resumeItem{Optimized API performance by leveraging MongoDB aggregation and indexing strategies.}
         \resumeItem{Collaborated with a team to ensure secure and efficient database operations.}
       \resumeItemListEnd
 
